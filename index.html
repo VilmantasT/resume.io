@@ -3,7 +3,119 @@
     <head>
         <meta charset="utf-8">
         <title></title>
-        <link rel="stylesheet" href="style.css">
+        <style media="screen">
+        *{margin: 0px;padding: 0px;font-family: 'Roboto', sans-serif;}
+
+        .container{width: 900px; margin: auto; background-color: white}
+
+        .contacts{background-color: #3f59a8; height: 50px; margin-top: 125px;}
+
+        .contacts a{text-decoration: none; color: white;}
+
+        .contacts ul{list-style-type: none; text-align: center;}
+
+        .contacts ul li{
+            display: inline-block;
+            line-height: 50px;
+            color: white;
+            margin-right: 5px;
+        }
+
+        .main-info img{
+            float: left;
+            width: 350px;
+
+        }
+        .skills ul, .soft ul{
+            list-style-type: none;
+            text-align: center;
+        }
+
+        .skills ul li, .soft ul li{
+            display: inline-block;
+            line-height: 50px;
+            color: white;
+            margin-right: 10px;
+            background-color: #3f59a8;
+            border: 1px solid #3f59a8;
+            border-radius: 10%;
+            margin-top: 5px;
+            padding: 5px;
+            box-shadow: 10px 10px 15px grey;
+
+        }
+
+        h3{
+            color: #3f59a8;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        h4{
+            font-style: bold;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .main-info p{
+            font-style: italic;
+        }
+
+        .date{
+            font-style: italic;
+            color: #3f59a8;
+        }
+
+        .work ul{
+            margin-top: 10px;
+            margin-left: 50px;
+
+        }
+
+        .work ul li{
+            list-style-type: circle;
+            margin-bottom: 5px;
+        }
+
+        .education ul{
+            margin-top: 10px;
+            margin-left: 50px;
+            list-style-type: circle;
+        }
+        .interests ul{
+            text-align: center;
+            margin-top: -25px;
+        }
+
+        .interests ul li{
+            display: inline-block;
+            line-height: 50px;
+            color: black;
+            margin-right: 10px;
+            background-color: white;
+            border: 1px solid grey;
+            border-radius: 10%;
+            margin-top: 5px;
+            padding: 5px;
+            box-shadow: 10px 10px 15px grey;
+
+        }
+
+        .work p, .education p{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        #now{
+            background-color: white;
+            color: #3f59a8;
+            border: none;
+            text-align: center;
+            box-shadow: none;
+            margin-top: 20px;
+        }
+        </style>
+        <!--<link rel="stylesheet" href="style.css">-->
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     </head>
@@ -16,11 +128,11 @@
 
                     <img src="https://0kdqjq.db.files.1drv.com/y4m9kw_FzYZ7A6-znNBL2lrgiplb0WLlawX30UNFRT3Ia9GMPNS79w2TLk0ZQlbHkL72ph1ZyJDfSaX1HocyDhnx1eQhqgMaoezeN0CN4bAJofW7P_tzcJUeMoKMt1-9yi2qltKi-x99quKPxVCk9yZDLDyqGVe4ywTASf_iQ8GCGOwlQpig-VssPWUj1YefGO8L-S_fJjx-0ho3CLq_GNx6g?width=706&height=500&cropmode=none" alt="">
                     <h2>Vilmantas Tamulėnas</h2>
-                    <h3>Junior PHP, Python developer</h3>
+                    <h3>Junior PHP developer</h3>
                     <p>My goal is to become full-stack developer.
                        First, I started solving programming problems at holidays
                        and it hooked me. So, I decided to attend Kaunas coding
-                       school. After 	graduation, i am studying on my own.</p>
+                       school and NFQ Academy. After graduations, i am studying on my own.</p>
                 </div>
                 <div class="contacts">
                     <ul>
@@ -37,14 +149,12 @@
                     <h3>SKILLS</h3>
                     <ul>
                         <li>PHP</li>
-                        <li>Python</li>
                         <li>MySQL</li>
                         <li>Javascript</li>
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>Github</li>
-                        <li>WordPress</li>
-                        <li id="now">Currently, I study these courses: Problem Solving with Algorithms and Data Structures, PHP with Laravel</li>
+                        <li>GIT</li>
+                        <li>Symfony</li>
                     </ul>
                 </div>
                 <div class="work">
@@ -55,8 +165,6 @@
                     <ul>
                         <li>Consistently and accurately assign the appropriate CPT,
                              ICD-9/ICD-10 CM codes to a minimum of 25 charts per hour. </li>
-                        <li>Provide feedback to clients regarding such issues as
-                             excessive down coding and lacking documentation. </li>
                         <li>Meet routine deadlines and work schedules as well as
                              timely and accurate completion of special projects and any other duties as assigned. </li>
                         <li>Worked in big team.</li>
@@ -64,6 +172,13 @@
                 </div>
                 <div class="education">
                     <h3>EDUCATION</h3>
+					<h4>NFQ Akademija</h4>
+                    <p>NFQ</p>
+                    <p class="date">2019.03 - 2019.06</p>
+                    <ul>
+                        <li>I learnt basics of symfony framework and worked in a group of students.</li>
+
+                    </ul>
                     <h4>Web kūrimo dieniniai mokymai</h4>
                     <p>Kaunas coding school</p>
                     <p class="date">2018.11 - 2018.12</p>
@@ -97,8 +212,6 @@
                         <li>Books</li>
                     </ul>
                 </div>
-
-
             </div>
         </div>
     </body>
